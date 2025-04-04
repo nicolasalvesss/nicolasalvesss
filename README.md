@@ -1,3 +1,4 @@
+import streamlit as st
 <!--
 **nicolasalvesss/nicolasalvesss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -12,4 +13,17 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Texto alternativo](Dta.jpg)
+![PT-BR = Imagem do hall do CA/600 com logotipo do DTA (Digital Talent Acadamy) / English = Picture of hall in CA/600 with marking of DTA (Digital Talent Acadamy) ](Dta.jpg)
+
+
+
+
+st.markdown("""
+    <style>
+        .reportview-container {
+            background-color: #f0f0f0;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+
